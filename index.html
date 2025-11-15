@@ -56,38 +56,49 @@
         <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
 
             <!-- Left: Intro + typing -->
+
             <div>
+                <!-- Profile Photo -->
+                <div class="mb-6 flex justify-center md:justify-start">
+                    <img src="./upload/images/profile.jpg" alt="Pulkit Mangal"
+                        class="w-32 h-32 rounded-full object-cover border-4 border-blue-500 shadow-xl">
+                </div>
+
                 <p class="text-sm text-gray-400 mb-3">Hello, my name is</p>
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Pulkit Mangal</h1>
                 <h2 class="text-xl md:text-2xl mb-6 gradient-text">Software Engineer • Laravel • NodeJS • Full-Stack
                 </h2>
 
-                <p class="text-gray-300 max-w-xl mb-6">I build performant, scalable web applications and delightful user
-                    experiences. I love clean code, automation, and shipping products that solve real problems.</p>
+                <p class="text-gray-300 max-w-xl mb-6">
+                    I build performant, scalable web applications and delightful user experiences.
+                    I love clean code, automation, and shipping products that solve real problems.
+                </p>
 
                 <div class="flex items-center gap-4">
                     <a href="./upload/resume.pdf" target="_blank" download
-                        class="px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 shadow-lg hover:scale-105 transition">Download
-                        Resume</a>
+                        class="px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 shadow-lg hover:scale-105 transition">
+                        Download Resume
+                    </a>
                     <a href="#projects"
-                        class="px-6 py-3 rounded-full border border-gray-700 hover:bg-white/5 transition">View
-                        Projects</a>
+                        class="px-6 py-3 rounded-full border border-gray-700 hover:bg-white/5 transition">
+                        View Projects
+                    </a>
                 </div>
 
                 <!-- typing effect -->
-                <p class="mt-6 text-sm text-gray-400">I specialise in <span id="typed"
-                        class="font-medium text-blue-400"></span><span class="text-blue-400">|</span></p>
+                <p class="mt-6 text-sm text-gray-400">
+                    I specialise in <span id="typed" class="font-medium text-blue-400"></span><span
+                        class="text-blue-400">|</span>
+                </p>
 
                 <!-- social icons -->
                 <div class="mt-6 flex items-center gap-4 text-gray-300">
-                    <!-- Replace hrefs with your actual profiles -->
                     <a href="https://github.com/pulkit127" target="_blank" class="hover:text-white">GitHub</a>
                     <a href="https://www.linkedin.com/in/pulkit-mangal-a45860227" target="_blank"
                         class="hover:text-white">LinkedIn</a>
                     <a href="mailto:pawanmangalcreative@gmail.com" class="hover:text-white">Email</a>
                 </div>
             </div>
-
             <!-- Right: Animated card / illustration -->
             <div class="relative">
                 <div
@@ -412,7 +423,7 @@
                 at <a href="mailto:pawanmangalcreative@gmail.com"
                     class="text-blue-400">pawanmangalcreative@gmail.com</a>.</p>
 
-            <form action="thank-you.html" method="post" class="bg-gray-800 p-6 rounded-lg space-y-4">
+            <form action="./thank-you.html" method="post" class="bg-gray-800 p-6 rounded-lg space-y-4">
                 <!-- Replace action with your form handler (Formspree, Netlify, or backend endpoint) -->
                 <input type="text" name="name" placeholder="Your name" required
                     class="w-full p-3 rounded bg-gray-900" />

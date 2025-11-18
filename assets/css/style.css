@@ -1,32 +1,40 @@
-/* Extra small custom animations */
-@keyframes floaty {
-    0% {
-        transform: translateY(0)
-    }
+ @keyframes floaty {
+     0% {
+         transform: translateY(0)
+     }
 
-    50% {
-        transform: translateY(-10px)
-    }
+     50% {
+         transform: translateY(-10px)
+     }
 
-    100% {
-        transform: translateY(0)
-    }
-}
+     100% {
+         transform: translateY(0)
+     }
+ }
 
-.floaty {
-    animation: floaty 6s ease-in-out infinite
-}
+ .floaty {
+     animation: floaty 6s ease-in-out infinite
+ }
 
-/* Fancy gradient text */
-.gradient-text {
-    background: linear-gradient(90deg, #7c3aed, #0ea5e9);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent
-}
+ .gradient-text {
+     background: linear-gradient(90deg, #7c3aed, #0ea5e9);
+     -webkit-background-clip: text;
+     color: transparent;
+ }
 
-/* subtle glass blur */
-.glass {
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(6px);
-}
+ .glass {
+     background: rgba(255, 255, 255, 0.05);
+     backdrop-filter: blur(8px);
+ }
+
+ .btn-blue {
+     @apply px-4 py-2 bg-blue-600 rounded-full text-white;
+ }
+
+ .btn-outline {
+     @apply px-4 py-2 border border-gray-400 rounded-full text-gray-200;
+ }
+
+ .skill {
+     @apply px-3 py-1 bg-gray-800 rounded text-sm;
+ }
